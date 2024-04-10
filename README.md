@@ -60,21 +60,6 @@ it seems to use a term known as "keccak" often.
 This algorithm is algo used in the Conceal, and Equilibria block chains;
 though it seems there maybe variations between the flavors.
 
-========================================================================
->                           Resources                                  <
-========================================================================
-
-I actually just finished writing a different algorithm for another 
-blockchain.  I'll help with whatever I can.
-
-The website is slightly helpful: https://ryo-currency.com/cn-gpu/
-
-Overall however, it's seeming like this C source code is our best 
-reference:
-https://github.com/ryo-currency/ryo-currency/blob/master/src/crypto/hash.c
-
-You may note that I'm asking for a C -> Golang port here.
-
 
 https://github.com/ConcealNetwork/conceal-core/blob/master/src/crypto/hash.c
 https://github.com/EquilibriaCC/Equilibria/blob/master/src/crypto/hash.c
